@@ -757,6 +757,13 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .school-roundedimg{  
+    object-fit:cover;
+    margin-right:5vw;
+    width:auto;
+    height:3rem;
+  }
 }
 
 
