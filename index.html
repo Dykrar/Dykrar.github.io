@@ -3,12 +3,14 @@
   <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="styles.css">
+
    <script src="main.js"></script>
    <script src="https://kit.fontawesome.com/ec23b597bc.js" crossorigin="anonymous"></script>
-   <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Diogo Rodrigues || Software Enginneer</title>
+<title>Diogo Rodrigues || Software Engineer</title>
 </head>
 <body>
 
@@ -25,18 +27,11 @@
     <div class="marquee">
       <div class="left">
       <h1 class="title_intro">
-        <div>Hi,</div>
-        <div>I’m</div>
-        <div>Diogo </div>
-        <div>|</div>
+        <div>Hi,  </div>
+        <div>I’m Diogo Rodrigues </div>
         <div class="highlightH">
-          <div>Software </div>
+          <div>Software Engineer </div>
           <div> </div>
-        </div>   
-        
-        <div class="highlightH">
-          <div>Engineer</div>
-          <div></div>
         </div>     
       </h1>
       
@@ -53,7 +48,7 @@
       </div>
     </div>
     <div class="introImgDiv" >
-      <img src="/media/Gaming-amico (1).svg" class="introImg">
+      <img src="/media/Gaming-amico.svg" class="introImg">
     </div>
     </div>
   </section>
@@ -63,9 +58,8 @@
 
       <div class="bioContainer">
         <h1>
-          <div>My</div>
           <div class="highlight">
-            <div>Skills</div>
+            <div>My Skills</div>
             <div></div>
           </div>
         </h1>
@@ -75,16 +69,6 @@
           </div>
         </div>
         <div class="bioText">       
-          <div class="skills">
-            <a class="lines lines4">C#</a>
-            <a class="lines lines4">Java</a>
-            <a class="lines lines4">Python</a>
-            <a class="lines lines4">C</a>           
-            <a class="lines lines4">HTML</a>
-            <a class="lines lines4">CSS</a>            
-            <a class="lines lines4">Unity</a>
-            <a class="lines lines4">Unreal Engine</a>
-          </div>         
           <div class="aboutMe">
 
 My name is Diogo Rodrigues, I have both a Master's degree and a Bachelor's degree in Software Engineering.
@@ -99,20 +83,90 @@ In my free time, I enjoy listening to music and playing video games.
           </div>
         </div>
       </div>
-    
+    <div class="skills-container">
+      <div class="skills-category">
+        <h3>Programming - Game Development</h3>
+        
+        <div class="skills-subcategory">
+          <h4>Programming Languages</h4>
+          <div class="skills-list">
+            <div class="skill-tag">C# - Unity development, OOP architecture</div>
+            <div class="skill-tag">Python - Automation scripting</div>
+            <div class="skill-tag">Java - Application development</div>
+            <div class="skill-tag">C/C++ - Systems programming</div>
+            <div class="skill-tag">JavaScript - Game UI</div>
+          </div>
+        </div>
+        
+        <div class="skills-subcategory">
+          <h4>Engines & Tools</h4>
+          <div class="skills-list">
+            <div class="skill-tag">Unity (2D/3D, Physics)</div>
+            <div class="skill-tag">Unreal Engine (Blueprint, C++)</div>
+            <div class="skill-tag">XML - Dialogue systems</div>
+            <div class="skill-tag">Blender - Asset integration</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills-category">
+        <h3>Web Development</h3>
+        <div class="skills-list">
+          <div class="skill-tag">HTML5</div>
+          <div class="skill-tag">CSS3</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">SQL - Database management</div>
+        </div>
+      </div>
+      
+      <div class="skills-category">
+        <h3>Development Workflow</h3>
+        <div class="skills-list">
+          <div class="skill-tag">Git - Version control</div>
+          <div class="skill-tag">BitBucket - Branch management</div>
+          <div class="skill-tag">Jira - Agile/Scrum</div>
+          <div class="skill-tag">Confluence - Documentation</div>
+        </div>
+      </div>
+  </div>
       <div class="job-section" id="job">
         <h1>
-          <div>Job</div>
           <div class="highlight">
-            <div>Experience</div>
+            <div>Job Experience</div>
             <div></div>
           </div>
         </h1>
         <div class="job-card">
-          <div class="card-left">
+          <div >
+            <img crossorigin="anonymous" class="jobdimg" src="/media/jitachi-1200x675.webp" alt="Hitachi Rail GTS">
+          </div>
+          <div >
+            <h5 class="text-company">Hitachi Rail GTS (formerly THALES) via IKOS Consulting</h5>
+            <div class="text-details">
+              <h5 class="text-subHeader">Signaling Enginner / Software Engineer</h5>
+              <p class="text-duration">June 2022 - now </p>
+              
+            </div>
+          </div>
+        <div class="text-bullets">
+          <ul>
+            <li class="subTitle">Implemented interlocking logic in PIPC G3 for Guarda Station’s rail system, ensuring compliance with Portuguese railway operational rules (RFC
+standards).</li>
+            <li class="subTitle">Developed Python scripts to automate 40% of manual testing, validating itinerary permutations and edge cases, which saved weeks of validation
+effort.
+</li>
+            <li class="subTitle">Maintained and optimized test scripts through iterative project requirement changes, improving long-term test suite reliability.</li>
+            <li class="subTitle">Designed SQL database integrations to store, analyze, and report test results for long-term traceability.</li>
+            <li class="subTitle">Used Git/BitBucket for version control across all interlocking software and test codebases, enabling collaborative development.</li>
+            <li class="subTitle">Managed tasks and tracked issues in Jira within an Agile workflow, coordinating with cross-functional engineering teams.</li>
+          </ul>
+        </div>
+        </div>  
+        <div class="job-card">
+          <div >
             <img crossorigin="anonymous" class="jobdimg" src="/media/emvenci.png" alt="EMVENCI">
           </div>
-          <div class="card-right">
+          <div >
             <h5 class="text-company">EMVENCI</h5>
             <div class="text-details">
               <h5 class="text-subHeader">Game Developer Intern</h5>
@@ -123,14 +177,16 @@ In my free time, I enjoy listening to music and playing video games.
         <div class="text-bullets">
           <ul>
             <li class="subTitle">Creation of game concepts with the Design team.</li>
-            <li class="subTitle">Contribution to the game and storyline.</li>
-            <li class="subTitle">Creation of game scripts and storyboards.</li>
-            <li class="subTitle">Turn design ideas into parts of the functional game.</li>
-            <li class="subTitle">Creation and assembly of levels.</li>
-            <li class="subTitle">Troubleshoot code and bugs.</li>
+            <li class="subTitle">Created game concepts and collaborated with designers on storyline development.</li>
+            <li class="subTitle">Developed game scripts and storyboards to create a better production.</li>
+            <li class="subTitle">Translated design ideas into functional game mechanics and level design using Unity.</li>
+            <li class="subTitle">Built and assembled multiple game levels with interactive elements.</li>
+            <li class="subTitle">Debugged and fixed code issues to improve game stability.</li>
           </ul>
         </div>
         </div>     
+        
+           
       </div>
       
     
@@ -143,10 +199,10 @@ In my free time, I enjoy listening to music and playing video games.
         </h1>   
         <div class="cards">
           <div class="card">
-            <div class="card-left">
+            <div >
               <img crossorigin="anonymous" class="school-roundedimg" src="/media/fcul.jpg" alt="Faculty of Sciences of the University of Lisbon">
             </div>
-            <div class="card-right">
+            <div >
               <h5 class="text-company">Faculty of Sciences of the University of Lisbon</h5>
               <div class="text-details">
                 <h5 class="text-subHeader">Master in Software Engineering</h5>
@@ -155,10 +211,10 @@ In my free time, I enjoy listening to music and playing video games.
             </div>
           </div>
           <div class="card">
-            <div class="card-left">
+            <div >
               <img crossorigin="anonymous" class="school-roundedimg" src="/media/Logo_Lusiada22.png" alt="Lusíada University">
             </div>
-            <div class="card-right">
+            <div >
               <h5 class="text-company">Lusíada University</h5>
               <div class="text-details">
                 <h5 class="text-subHeader">Bachelor in Software Engineering</h5>
@@ -170,175 +226,176 @@ In my free time, I enjoy listening to music and playing video games.
       </div>
 
 
+      <div class="thesis-section">
+        <h1>
+          <div class="highlight">
+            <div>Thesis</div>
+            <div></div>
+          </div>
+        </h1>
+        
+        <div class="thesis-card">
+          <div class="thesis-header">
+            <div>
+              <h2 class="thesis-title">Master's Thesis: Cybersecurity Aware Game</h2>
+              <div class="thesis-subtitle">MSc Computer Engineering, FCUL / EMVENCI Partnership</div>
+            </div>
+            <div class="thesis-meta">
+              <span>September 2021</span>
+              <span class="divider">-</span>
+              <span>February 2023</span>
+            </div>
+          </div>
+          
+          <ul class="thesis-bullets">
+            <li>Designed and developed a Unity-based point-and-click prototype game (C# / XML) to teach cybersecurity fundamentals</li>
+            <li>Implemented interactive learning mechanics such as dialogue trees (XML) for scenario-based training and progress tracking system</li>
+            <li>Achieved 35% higher knowledge retention vs. traditional methods in user testing</li>
+            <li>Focused on real-world threats: phishing, password security, attack prevention</li>
+            <li>Validated serious games' effectiveness for corporate training through EMVENCI platform</li>
+          </ul>
+        </div>
+      </div>
+
     </section>
     <section id="Projects">
-      <div class="project-section" id="project">
+      <div class="project-section">
         <h1>
           <div class="highlight">
             <div>Projects</div>
             <div></div>
           </div>
-        </h1>  
-
-
+        </h1>
         
-      <div class="components_Project">
-        <div class="components_Section">Multimedia Project</div>
-        <h1 class="components_Header"> Cosmos Possible Worlds</h1>
-        <p class="components_Paragraph">Our main purpose was to obtain a multimedia application with the possibility of navigation in the video "Cosmos Possible Worlds Ladder to the Stars" through text and several images arranged in chronological order.</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://dykrar.github.io/Cosmos-Possible-Worlds/index.html">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image1">
-            <img class="project_img" src="/media/cosmos.jpg">
-        </div>
-      </div>
-
-      <div class="components_Project2">
-        <div class="components_Section">Mobile Computer Project</div>
-        <h1 class="components_Header"> Magoro</h1>
-        <p class="components_Paragraph">Magoro is a fitness application with an entertainment aspect whose goal is to take care of virtual pets, little monsters, the Magoros, who need the help of users to be fed and feel happy</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://dykrar.github.io/Magoro-Website/index.html">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image">
-            <img class="project_img" src="/media/magoro.png">
-        </div>
-      </div>
-
-
-      <div class="components_Project">
-        <div class="components_Section">Python Project</div>
-        <h1 class="components_Header"> FrutaxFruta</h1>
-        <p class="components_Paragraph">As a final computer theory project, a game was created using a state diagram to describe the different phases/menus of the game. Fruta x Fruta was developed in Python with two of its libraries, the arcade and pygame.</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://dykrar.github.io/FrutaxFruta-Website/index.html">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image1">
-            <img class="project_img" src="/media/fxf.png">
-        </div>
-      </div>
-
-
-      <div class="components_Project2">
-        <div class="components_Section">Compiler Project</div>
-        <h1 class="components_Header"> Interpreter and Compiler for Casual Programming Language</h1>
-        <p class="components_Paragraph">Casual is a programming language designed to be as simple as possible, while being user-friendly. In this project, it was designed an interpreter and a compiler for the Casual programming language.</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://github.com/Dykrar/Casual-Programming-Language">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image">
-            <img class="project_img" src="/media/compiler.jpeg">
-        </div>
-      </div>
-
-
-      <div class="components_Project">
-        <div class="components_Section">Game Design and Development Project</div>
-        <h1 class="components_Header"> Cozido the Game!</h1>
-        <p class="components_Paragraph">Cook the best dish and win points! Take your allowance, go to the market, buy the best ingredients you can find and banter to make sure everyone else can only get leftovers. But be careful not to run out of money!</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://tabletopia.com/games/cozido-the-game">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image1">
-            <img class="project_img" src="/media/cozido2.webp">
-        </div>
-      </div>
-
-      <div class="components_Project2">
-        <div class="components_Section">Unreal Project</div>
-        <h1 class="components_Header"> Zombie First Person Shooter (WIP)</h1>
-        <p class="components_Paragraph"> A work in progress Zombie First Person Shooter where I tried to build a Unreal Engine Game for the first time</p>
-
-        <div class="components__Button">
-          <a class="btn" href="https://github.com/Dykrar/-Zombie-First-Person-Shooter">
-            <span>See More</span>
-            <div class="wave"></div>
-          </a>
-        </div>
-
-        <div class="components_Image">
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-category">Multimedia Project</div>
+            <h2 class="project-title">Cosmos Possible Worlds</h2>
+            <p class="project-description">
+              Our main purpose was to obtain a multimedia application with the possibility of navigation 
+              in the video "Cosmos Possible Worlds Ladder to the Stars" through text and several images 
+              arranged in chronological order.
+            </p>            
+            <div class="project-button">
+              <a href="https://dykrar.github.io/Cosmos-Possible-Worlds/index.html" class="btn">
+                <span>See More</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-category">Mobile Computer Project</div>
+            <h2 class="project-title">Magoro</h2>
+            <p class="project-description">
+              Magoro is a fitness application with an entertainment aspect whose goal is to take care of 
+              virtual pets, little monsters, the Magoros, who need the help of users to be fed and feel happy.
+            </p>            
+            <div class="project-button">
+              <a href="https://dykrar.github.io/Magoro-Website/index.html" class="btn">
+                <span>See More</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-category">Python Project</div>
+            <h2 class="project-title">FrutaxFruta</h2>
+            <p class="project-description">
+              A game created using a state diagram to describe different phases/menus. Developed in Python 
+              with arcade and pygame libraries, featuring colorful fruit-matching mechanics.
+            </p>            
+            <div class="project-button">
+              <a href="https://dykrar.github.io/FrutaxFruta-Website/index.html" class="btn">
+                <span>See More</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-category">Compiler Project</div>
+            <h2 class="project-title">Casual Programming Language</h2>
+            <p class="project-description">
+              Designed an interpreter and compiler for Casual, a programming language created to be simple 
+              and user-friendly, featuring clean syntax and straightforward execution.
+            </p>            
+            <div class="project-button">
+              <a href="https://github.com/Dykrar/Casual-Programming-Language" class="btn">
+                <span>See More</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="project-category">Game Design Project</div>
+            <h2 class="project-title">Cozido the Game!</h2>
+            <p class="project-description">
+              A competitive cooking game where players buy ingredients at the market and try to prepare 
+              the best dish while sabotaging opponents. Features economic strategy and social interaction.
+            </p>            
+            <div class="project-button">
+              <a href="https://tabletopia.com/games/cozido-the-game" class="btn">
+                <span>See More</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-category">Unreal Project</div>
+            <h2 class="project-title">Zombie First Person Shooter</h2>
+            <p class="project-description">
+              Work in progress FPS game built with Unreal Engine, featuring zombie AI, weapon systems, 
+              and survival mechanics. My first exploration of Unreal's blueprint system and C++ integration.
+            </p>
+            
+            <div class="project-button">
+              <a href="https://github.com/Dykrar/-Zombie-First-Person-Shooter" class="btn">
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-
-
     </section>
-    <section id="contact">
-
-
-
-    </section>
-
-    
     
   </div>
-
-
-  <footer class="footer">
-    <div class="waves">
-      <div class="wavef" id="wave1"></div>
-      <div class="wavef" id="wave2"></div>
-      <div class="wavef" id="wave3"></div>
-      <div class="wavef" id="wave4"></div>
-    </div>
+  <footer class="footer" id="Contact">   
 
     <section id="contact-info">
       <h2>Contact Information</h2>
       <p>Email: <a href="mailto:diogo15rodrigues@gmail.com">diogo15rodrigues@gmail.com</a></p>
       <p>Phone: <a href="tel:+351962919486">(+351) 962919486</a></p>
       <p>Lisboa, Portugal</p>
+    
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-github"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="mailto:diogo15rodrigues@gmail.com">
+            <ion-icon name="mail-outline"></ion-icon>
+        </a></li>
+
+      </ul>
     </section>
-
-    <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-github"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="mailto:diogo15rodrigues@gmail.com">
-          <ion-icon name="mail-outline"></ion-icon>
-      </a></li>
-
-    </ul>
     <ul class="menuf">
       <li class="menu__item"><a class="menu__link" href="#About">About Me</a></li>
       <li class="menu__item"><a class="menu__link" href="#Projects">Projects</a></li>
       <li class="menu__item"><a class="menu__link" href="mailto:diogo15rodrigues@gmail.com">Contact</a></li>
 
-    </ul>
-    <p>&copy;2023 Diogo Rodrigues | All Rights Reserved</p>
+    </ul>    
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-  </footer>
-      
+  <button id="darkModeToggle" aria-label="Dark mode toggle">
+  <i class="fas fa-moon"></i>
+</button>
 </body>
 </html>
