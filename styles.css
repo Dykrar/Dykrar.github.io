@@ -213,6 +213,7 @@ h1 {
 }
 
 .highlight {
+  margin-top: 2rem;
   position: relative;
   display: inline-block;
 }
@@ -814,7 +815,7 @@ h1 {
   .menu-item {
     margin: 0.5rem 1rem;
   }
-  
+
   .bioContainer {
     grid-template-columns: 1fr;
   }
